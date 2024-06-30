@@ -1,0 +1,338 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+
+   
+
+
+}
+
+
+
+header{
+
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+
+#logo{
+
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10%;
+
+}
+
+
+.navegar{
+
+display: flex;
+/* Mostrar los botones en línea horizontal*/
+background-color: #000;
+
+
+}
+
+
+#logo{
+
+    flex-shrink: 0; 
+
+    margin-right: auto;
+
+}
+
+
+#logo img{
+    height:235px;
+}
+
+
+a{
+   
+    background-color: #ffffff;
+    color: rgb(128, 60, 60);
+    border: none;
+    text-decoration: none !important;
+
+}
+
+
+.nav1{
+
+   
+    background-color: #000000;
+    color: rgb(211, 30, 30);
+    border: none;
+    padding: 10px 20px;
+    /*Aumentar el tamaño del botón */
+    margin-right: 33px;
+    /* Espacio entre los botones */
+    font-size: 20px;
+    /* Tamaño del texto*/
+    
+  
+}
+
+
+
+.tamaño{
+
+text-decoration: none;
+background-color: #000;
+color: rgba(204, 29, 29, 0.993);
+
+
+}
+
+
+
+
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+
+
+
+
+
+#carrusel {
+
+    width: 29%;
+    height: auto;
+    
+
+
+
+}
+
+
+
+.contenedor {
+
+  
+
+    /*margin-left: auto;
+    margin-right: auto;
+    width: 50%;*/ 
+
+
+    position:absolute;
+    top: 188%;
+    right: 0;
+    width: 10%;
+   
+    
+    
+    /* Ancho del contenedor */
+
+}
+
+h5{
+   text-align: center;
+   background-color: transparent;
+   color:rgba(204, 29, 29, 0.993);
+
+}
+
+
+
+
+#fondo{
+    width: 100%;
+    height: auto;
+
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+
+
+.contenedor2{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(61vh - 90px); /* Altura de la pantalla menos la altura del header */
+    background-color: #b40b0b; /* Color de fondo */
+
+
+}
+
+
+
+.contenido{
+
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    max-width: 800px;
+    text-align: center;
+    color: rgb(255, 255, 255); /* Color del texto */
+    margin: 20px; /* Espacio alrededor del contenedor */
+
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+ 
+}
+
+.rojocolor{
+    color: rgba(204, 29, 29, 0.993);
+    background-color: transparent;
+}
+
+p {
+    font-size: 1.5em; /* Ajustado para mejorar la legibilidad */
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify; /* Alineación del texto para mejor presentación */
+}
+
+.carita{
+
+    font-size: 0.8em;
+    color: rgba(204, 29, 29, 0.993);
+    cursor: pointer;
+    margin-left: 10px;
+
+
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+
+
+.cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 9vh; /* Altura de la pantalla completa */
+    background-color: #b40b0b; /* Color de fondo */
+
+}
+
+
+.contenido2{
+    background-color: rgb(0, 0, 0);
+    padding: 1%;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    max-width: 800px;
+    text-align: center;
+    color: rgb(255, 255, 255); /* Color del texto */
+    margin: 20px; /* Espacio alrededor del contenedor */
+}
+
+
+h3{
+
+    color: rgba(204, 29, 29, 0.993);
+    background-color: transparent;
+
+}
+
+li{
+    font-size: 1em; /* Ajuste del tamaño de la fuente */
+    line-height: 1.6;
+    margin-bottom: 15px; /* Espacio entre elementos de lista */
+    text-align: left; /* Alineación de texto a la izquierda */
+    
+}
+
+
+#fbook{
+
+    background-color: rgb(26, 102, 201);
+    color: rgb(255, 255, 255);
+    padding: 10px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+
+
+}
+
+#ig{
+   
+    background: linear-gradient(to right, rgb(219, 64, 90), purple);
+    color: rgb(255, 255, 255);
+    padding: 10px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+
+}
+
+
+#tw{
+
+    background-color: #131212;
+    color: white;
+    padding: 10px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+
+}
+
+
+#wsp{
+
+    background-color: rgb(37, 165, 37);
+    color: white;
+    padding: 10px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+
+}
+
+
+
+#gml{
+
+    background: linear-gradient(to right, blue, red, yellow, green);
+    color: white;
+    padding: 10px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+
+}
+
+
+a{
+    background-color: transparent;
+    color: inherit; /* Mantener el color del texto del padre */
+    text-decoration: none; /* Quitar subrayado */
+
+
+}
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+footer{
+
+
+font-family:cursive;
+color:rgba(204, 29, 29, 0.993);    
+text-align: center;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/ 
